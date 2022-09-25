@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        div {
+            border: 5px solid black;
+            padding: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div>Hello</div>
+    <div style="position: relative;">Hello
+        <div style="position: relative; top: 10px;">Hello
+            <div>Hello</div>
+            <!--position의 디폴트는 static이다-->
+            <div style="position: static;left: 20px;">static</div>
+            <!--relative는 원래자기위치기준으로 움직인다.-->
+            <div style="
+                border: 5px solid red;
+                background-color:rgba(255,0,0,0.5);
+                position: relative;
+                left: 20px;
+                top: 20px;">relative</div>
+            <!--absolute는 부모위치기준으로 움직인다.
+            부모가 static(default)면 부모를 무시한다.-->
+            <div style="
+                border: 5px solid green;
+                background-color:rgba(0,255,0,0.5);
+                text-align:center;
+                position: absolute;
+                left: 0;
+                top: 0;">absolute</div>
+            <!--fixed는 부모가 relative든 신경안쓰고 최상위 부모기준으로 잡는다.
+            스크롤조차도 무시한다.(스크롤 위아래로 움직여도 그자리 고정)-->
+            <div style="
+                border-color: blue;
+                background-color:rgba(0,0,255,0.5);
+                text-align:right;
+                position: fixed;
+                top: 0;
+                left: 0;">fixed</div>
+            <div>Hello</div>
+        </div>
+    </div>
+    <div style="height: 1103px;">Hello</div>
+</html>
