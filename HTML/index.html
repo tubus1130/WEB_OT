@@ -3,24 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <title>WEB1 - WELCOME!!</title>
+    <link rel="stylesheet" href="/CSS/style.css">
 </head>
 <body>
     <h1><a href="index.html">WEB</a></h1>
-    <ol>
-        <li><a href="1.html">HTML</a></li>
-        <li><a href="2.html">CSS</a></li>
-        <li><a href="3.html">JavaScript</a></li>
-    </ol>
-    <h2>WEB</h2>
+    <div id="grid">
+        <ol>
+            <li><a href="1.html">HTML</a></li>
+            <li><a href="2.html">CSS</a></li>
+            <li><a href="3.html">JavaScript</a></li>
+        </ol>
+        <div id="article">
+            <h2>WEB</h2>
+            <p>Web is a computer programming system created by Donald E. 
+                Knuth as the first implementation of what he called "literate programming": 
+                the idea that one could create software as works of literature, by embedding source code 
+                inside descriptive text, rather than the reverse (as is common practice in most 
+                programming languages), in an order that is convenient for exposition to human readers,
+                rather than in the order demanded by the compiler
+            </p>
+        </div>
+    </div>
     <p>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/tZooW6PritE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </p>
-    <p>Web is a computer programming system created by Donald E. 
-    Knuth as the first implementation of what he called "literate programming": 
-    the idea that one could create software as works of literature, by embedding source code 
-    inside descriptive text, rather than the reverse (as is common practice in most 
-    programming languages), in an order that is convenient for exposition to human readers,
-    rather than in the order demanded by the compiler</p>
     <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAe1BMVEX///+pqakAAABZWVmjo6Oamppubm5mZmbExMTT09MYGBiOjo5eXl5ycnJpaWmxsbEnJyfa2toiIiL09PTs7OyXl5fh4eHLy8tTU1O6urqysrI0NDTCwsIJCQkvLy9NTU0UFBRCQkJ/f39+fn7n5+c7OzuHh4dISEgdHR3bIR6EAAAE+UlEQVR4nO3ciXKqMBgF4PgDArK4gKzWpSr6/k94wyJiC4K9joI534zKCGUypyGGQGAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOBZdGOzXlTNTt/+uwvVT+GMrKk/r9Kjb/oavbtg/eNINK1dsaLYfXFZ+s4ltXHdnuYvLEn/OdvkzlqZDi8ryQCYzfUqZRxfVI4hWJFzf4NYfk1BhmDR9ounfbWkKY45tW6yDl9QjkFQshbLNfiP3ojXMc9wloZhJCzk70WdS6x3FrBPgjwRsphDvPUyZoxiU9owmyyVgmydH7+zgH1yXmUfKjGdyGfrJaMsPlvitS4/RDscqYL40rKPiA5Lc5c4pDNKdN1l9m6un8bZOoR1UYR1oEgK9yeN+NH4NaGIjWmy5R8pD2EVJnlYbCFNvJBUiYelMN5XsAPmjPLeO2rWxak4hU5ozasXb68cyjqhaZsV8YOS82fvK16/GEW/QCOTsSN56Y8i59rpe36ms7TfWL5e8S/HWOQxpqfdz5CL+GIYFkfoMXpX4XqHtJYN9LaTR4HIbaMKG+Ml5RiGlrFj+YyKdeXTvQsTYf6LCIWImuuWTKsXlmQI/C1ta1d4JwzB/7a5DMM7JVeXY7o3Oi8qP+8dOOGJrrbSaMBNu6Y8Wdl07xT+5vEzHvngXgw4KM6cjDuxKLY6bahS0YMKz4ytArI/53K9HHf9X2/uX9u68opuwVpRJgvlk649q+kI+bfazl7s7A6bGTz78TLds0xktp3zDIw5ZXOyRnK7LtvIcsAbdSs7DpfGJ1WqDA/rtHzqDo0irA/Ew5o9tQWWVYTVmWIjrM4Q1gMQ1gMQVmrlddoMYXHzZNQpLYTFRep3p/44wkpF3QbsENYDENYDENYDENYDENYDxA2rsbPQ3IsQNqyD2TB+55qNs0lEDcsbr63aUA7WetzUnRc1LMYab1Vvvodd3LAar/w0XxISN6w/QFgPQFgPQFjMkaV1rHa5ZRZhhbQZ6b4Sz9rv1xM+rNHlRj25/e5GAcPSq1137xrR6OaGbLdmPFDAsJbVGqR+X5d31anNfs2Ff/HCSo5B5e5ZqpzahOvrshwcf9/wKF5YTK4cYDdz3W7mcs1rZtALGFa1ZbrJ53aWYM1Zj4BhVTlUae39tlmCgofFFpXO6L5tzrzoYUXbctGjtsvSoofFgqBYcLetOQgfFjOzRw84ow5zI8QOy1lNo3BDtF4QjcPp1L9/L7jIYTl7ioMgkMyMxBdndPeGXYHDcmfmrxZdj807OxQsLK3Se5fqegrOsZKG9uNkWqywDklSzpz062d9z6/dVH1v3KYlVljR3iqHHJJ9/V/tymdfhfb+9uq0WGEx7zrgYDc8a85WysXwx3CgYGFV2A3TnO3mH0SBw2qqWQjrtz+E9eFzd+LmJxX+ISzD+tyw1PDeZNZx/cOR2Vip/z59vJjO9k+dk9cL8912MjkTndPXpFbTmua/mBAt8rVbc9hzx2/tEl8r+H7+eiZfauijDVJ8bdf9pZO9nkoZP3d/b3UNyzV127W1/OqgI//XQx2ukS8/KaxN2eF0AtlwzGXeLDv6/ynDsj7pISqrczn44uj565m0gT7xfRpIdYg2xZJp5q8n2tFXvsMg7cUpZQk2fX9ulj6qNa3/+knKvacjOH75tTzM+gYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANBn/wCWIlhkFC7PbgAAAABJRU5ErkJggg==" width="100%">
     <p>
         <div id="disqus_thread"></div>
