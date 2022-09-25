@@ -1,4 +1,6 @@
 # WEB_OT
-1. HTML
+1. WEB1 - HTML & INTERNET
 - DISQUS (댓글API)
 - TAWK.TO (채팅API)
+#
+2. WEB2 - CSS
