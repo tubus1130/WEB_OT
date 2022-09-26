@@ -8,3 +8,6 @@
 - GRID(그리드)
 - MediaQuery(미디어쿼리)
 #
+3. WEB2 - Node.js
+- 서버구축
+- 동적 웹페이지
