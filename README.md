@@ -9,5 +9,8 @@
 - MediaQuery(미디어쿼리)
 #
 3. WEB2 - Node.js
-- 서버구축
-- 동적 웹페이지
+- 서버구축(http.createServer)
+- 동적 웹페이지 구현
+- 파일읽기1(fs.readFile)
+- 파일읽기2(fs.readdir)
+#
