@@ -13,4 +13,8 @@
 - 동적 웹페이지 구현
 - 파일읽기1(fs.readFile)
 - 파일읽기2(fs.readdir)
+- 파일수정(fs.rename)
+- 파일작성(fs.writeFile)
+- 파일삭제(fs.unlink)
+- GET(데이터 받을때) / POST(데이터 보낼때)
 #
