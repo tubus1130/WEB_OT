@@ -18,3 +18,4 @@
 - 파일삭제(fs.unlink)
 - GET(데이터 받을때) / POST(데이터 보낼때)
 #
+4. WEB2 - MySQL
