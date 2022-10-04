@@ -1,13 +1,15 @@
-var o = {
+// 함수는 값이다.
+// 객체는 값을 저장한다.
+var q = {
     v1: 'v1',
     v2: 'v2',
     f1: function(){
         console.log(this.v1);
     },
     f2: function(){
-        console.log(o.v2);
+        console.log(this.v2);
     }
 }
 
-o.f1();
-o.f2();
+q.f1();
+q.f2();

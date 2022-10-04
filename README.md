@@ -17,5 +17,7 @@
 - 파일작성(fs.writeFile)
 - 파일삭제(fs.unlink)
 - GET(데이터 받을때) / POST(데이터 보낼때)
+- 보안1- 다른파일로부터 객체불러옴(path)
+- 보안2(sanitize-html)
 #
 4. WEB2 - MySQL
