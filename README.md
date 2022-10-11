@@ -21,4 +21,7 @@
 - 보안2(sanitize-html)
 #
 4. WEB2 - MySQL
+- [CREATE/DROP] 데이터베이스명
+- SHOW DATABASES
+- USE 데이터베이스명
 #
